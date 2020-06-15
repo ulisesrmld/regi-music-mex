@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">  
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="gallery-grid.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+                         <a class="navbar-brand" href="#">
+                            <img src="img/logo1.1.png" width="30" height="60" alt="" loading="lazy">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-white" href="index.html"><h5>Inicio</h5><span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="Noticias.html"><h5>Noticias</h5></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="Galeria.html"><h5>Galeria</h5></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="Recomendaciones.html"><h5>Recomendaciones</h5></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <h5>Mas opciones</h5>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="Contacto.html">Contacto</a>
+                                        <a class="dropdown-item" href="Formulario.html">Inicia secion o Registrate</a>
+                                        <div class="dropdown-divider"></div>
+
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-12 p-4 text-center">
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Default form register -->
+                    <form class="text-center border border-light p-5" action="#!">
+
+                        <p class="h4 mb-4">Iniciar secion</p>
+
+                        <div class="form-row mb-4">
+                            <div class="col">
+                                <!-- First name -->
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="col">
+                                <!-- Last name -->
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Apellido">
+                            </div>
+                        </div>
+
+                        <!-- E-mail -->
+                        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Correo electronico">
+
+                        <!-- Password -->
+                        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Contraseña" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                        <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                            Solo se admiten 8 caracteres
+                        </small>
+
+                        <!-- Phone number -->
+                        <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Numero de telefono" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                        <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                            Opcional
+                        </small>
+
+                        <!-- Newsletter -->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+                            <label class="custom-control-label" for="defaultRegisterFormNewsletter">Recordar contraseña</label>
+                        </div>
+
+                        <!-- Sign up button -->
+                        <button class="btn btn-info my-4 btn-block" type="submit">Iniciar Secion</button>
+
+                        <!-- Social register -->
+                        <p>Musica Regional Mexicana:</p>
+
+                        <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+                        <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+                        <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+                        <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+
+                        <hr>
+
+                        <!-- Terms of service -->
+                        <p>Has clik aqui
+                            <em></em> para leer
+                            <a href="" target="_blank">terminos y condiciones</a>
+
+                    </form>
+                    <!-- Default form register -->
+                </div>
+                <div class="col-md-6">
+                    <!-- Material form register -->
+                    <div class="card">
+
+                        <h5 class="card-header info-color white-text text-center py-4">
+                            <strong>Registrate</strong>
+                        </h5>
+
+                        <!--Card content-->
+                        <div class="card-body px-lg-5 pt-0">
+
+                            <!-- Form -->
+                            <form class="text-center" style="color: #757575;" action="#!">
+
+                                <div class="form-row">
+                                    <div class="col">
+                                        <!-- First name -->
+                                        <div class="md-form">
+                                            <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                                            <label for="materialRegisterFormFirstName">Nombre</label>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <!-- Last name -->
+                                        <div class="md-form">
+                                            <input type="email" id="materialRegisterFormLastName" class="form-control">
+                                            <label for="materialRegisterFormLastName">Apellido</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- E-mail -->
+                                <div class="md-form mt-0">
+                                    <input type="email" id="materialRegisterFormEmail" class="form-control">
+                                    <label for="materialRegisterFormEmail">Correo electronico</label>
+                                </div>
+
+                                <!-- Password -->
+                                <div class="md-form">
+                                    <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+                                    <label for="materialRegisterFormPassword">Contraseña</label>
+                                    <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                                        Solo se admiten 8 caracteres
+                                    </small>
+                                </div>
+
+                                <!-- Phone number -->
+                                <div class="md-form">
+                                    <input type="password" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
+                                    <label for="materialRegisterFormPhone">Numero de telefono</label>
+                                    <small id="materialRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                                        Es obligatorio para la autenticacion
+                                    </small>
+                                </div>
+
+                                <!-- Newsletter -->
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter">
+                                    <label class="form-check-label" for="materialRegisterFormNewsletter">Recordar contraseña</label>
+                                </div>
+
+                                <!-- Sign up button -->
+                                <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Registrarse</button>
+
+                                <!-- Social register -->
+                                <p>Musica Regional Mexicana:</p>
+
+
+
+
+                                <hr>
+
+                                <!-- Terms of service -->
+                                <p>Has clik aqui
+                                    <em></em>para leer
+                                    <a href="" target="_blank">Terminos y Condiciones</a>
+
+                            </form>
+                            <!-- Form -->
+
+                        </div>
+
+                    </div>
+                    <!-- Material form register -->
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div style="background-color: #35373a;">
+                        <footer class="page-footer font-small unique-color-primary">
+
+                            <div style="background-color:orange;">
+                                <div class="container">
+
+
+                                    <div class="row py-4 d-flex align-items-center">
+
+
+                                        <div class="col-md-12 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                                            <h6 class="text-white">INFORMACION DE LA PAGINA</h6>
+                                        </div>
+
+                                    </div>                              
+                                </div>
+                            </div>
+
+
+                            <div class="container text-center text-md-left mt-5">
+
+
+                                <div class="row mt-3">
+
+
+                                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-white">
+
+
+                                        <h6 class="text-white">ACERCA DE NOSOTROS</h6>
+                                        <hr class="text-white">
+                                        <p>La Musica Regional Mexicana no es un genero musical, si no que es una cultura musical que engloba otros estilos musicales que, si son generos como
+                                            la Banda, conjunto, Corridos, Durangense, Grupero, Huapango y Mariachi. En el regional mexicano hay una gran lista de subgeneros que son consideradas dentro 
+                                            de esta corriente musical.</p>
+
+                                    </div>
+
+                                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+
+                                        <h6 class="text-white"> REDES SOCIALES</h6>
+                                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                                        <p>
+                                            <a class="" href="http://facebook.com">Facebook</a>
+                                        </p>
+                                        <p>
+                                            <a href="http://twitter.com">Twitter</a>
+                                        </p>
+                                        <p>
+                                            <a href="http://youtube.com">Youtube</a>
+                                        </p>
+                                        <p>
+                                            <a href="http://instagram.com">Instagram</a>
+                                        </p>
+
+                                    </div>
+
+                                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                        <h6 class="text-white">CONTACTO</h6>
+                                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                                        <p>
+                                            <a href="www.tehuacan.gob.mx">Tehuacan, Puebla Mexico</a>
+                                        </p>
+                                        <p>
+                                            <a href="https://outlook.live.com">regional.mexicano@outlook.com</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!">+ 55 238 567 88</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!">+ 55 238 567 89</a>
+                                        </p>
+
+                                    </div>
+                                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                        <h6 class="text-white">MAS INFORMACION</h6>
+                                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                                        <p>
+                                            <a href="www.tehuacan.gob.mx">Cookies</a>
+                                        </p>
+                                        <p>
+                                            <a href="https://outlook.live.com">Politica de privacidad</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!">Aviso legal</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!">Terminos y condiciones</a>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="js/jquery-3.5.1.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+        </div>
+    </body>
+
+</html>
